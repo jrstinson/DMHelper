@@ -3,10 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:customControls="clr-namespace:CustomXaml;assembly=CustomXaml"
         xmlns:local="clr-namespace:DMHelper"
+        xmlns:customControls1="clr-namespace:CustomXaml"
         mc:Ignorable="d"
-        Title="DMHelper v0.1" Height="350" Width="525">
-    <Grid>
-        
+        Title="DMHelper v0.1" Height="740.036" Width="823.939"
+        ResizeMode="CanMinimize">
+    <Grid Background="BlanchedAlmond">
+        <customControls1:OutlinedText
+            HorizontalAlignment="Center" 
+            Height="69" 
+            Margin="49,21,0,0" 
+            FontSize="70"
+            Text="Welcome to DMHelper v0.1" 
+            VerticalAlignment="Top" 
+            Width="289" 
+            Stroke="DarkGoldenrod"
+            StrokeThickness="1"
+            Bold="True"
+            Fill="DarkRed"
+            Font="Enchanted Land"
+            />
+
     </Grid>
+
 </Window>
